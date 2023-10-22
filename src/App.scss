@@ -1,0 +1,28 @@
+.app {
+  padding: 3rem 5rem;
+  height: 100vh;
+}
+
+.filter {
+  display: flex;
+  align-items: center;
+  text-transform: capitalize;
+  gap: 4rem;
+  margin-bottom: 2rem;
+
+  &-btns {
+    display: flex;
+    gap: 2rem;
+  }
+  button {
+    text-transform: capitalize;
+    font-weight: 500;
+    font-family: inherit;
+    border: none;
+  }
+}
+
+main {
+  display: flex;
+  gap: 2rem;
+}
